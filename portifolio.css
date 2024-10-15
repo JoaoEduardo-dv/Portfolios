@@ -312,9 +312,59 @@ body{
 .drop-content:hover .dropdown{
     display: block;
 }
-/* nav{
+.dropbtn{
+    margin-right: -60px;
+}
+nav{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-} */
+}
+
+.icone{
+    width: 6vh;
+    height: 5vh;
+}
+
+.menor-tela{
+    display: none;
+}
+
+@media screen and (max-width: 700px) {
+    .dropdown{
+        margin-left: 55%;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    nav .maior-tela{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    nav ul .menor-tela{
+        display: none;
+    }
+}
+@media screen and (max-width: 600px){
+    nav .maior-tela{
+        display: none;
+    }
+    nav .logolink{
+        display: none;
+    }
+    nav ul .menor-tela{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    nav .ultelanav{
+        width: 30%;
+    }
+    .icone{
+        margin-right: 4vh;
+    }
+}
