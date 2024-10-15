@@ -12,19 +12,26 @@
 <body>
     <div class="navbar">
         <nav>
-            <a href="https://portal.ifrn.edu.br/"><img class="logo" src="img/images-removebg-preview.png"
+            <a href="https://portal.ifrn.edu.br/" class="logolink"><img class="logo" src="img/images-removebg-preview.png"
                     alt="logobar"></a>
-            <ul>
+            <ul class="maior-tela">
                 <li><a class="guias" href="inicio.html">Início</a></li>
                 <li><a class="guias" href="projetos.html">Projetos</a></li>
                 <li><a class="guias" href="conquistas.html">Conquistas</a></li>
                 <li class="drop-content">
-                    <a class="guias dropbtn" href="#">Disciplinas</a>
-                    <div class="dropdown">
+                    <a class="guias dropbtn" href="#">Disciplinas&darr;</a>
+                    <div class="dropdown" id="myDropdown">
                         <a class="drop" href="materias.html">Matérias</a>
                         <a class="drop" href="professores.html">Professores</a>
                     </div>
                 </li>
+            </ul>
+            <ul class="ultelanav">
+                <div class="menor-tela">
+                    <a href="https://portal.ifrn.edu.br/"><img class="logo" src="img/images-removebg-preview.png"
+                        alt="logobar"></a>
+                    <img src="img/icone.png" alt="Ícone" class="icone">
+                </div>
             </ul>
         </nav>
     </div>
@@ -86,6 +93,28 @@
         </div>
         <span>Densenvolvedor front-and &copy; João Eduardo</span>
     </footer>
+    <script>
+        function toggleDropdown() {
+            var dropdown = document.getElementById("myDropdown");
+            if (dropdown.style.display === "block") {
+                dropdown.style.display = "none";
+            } else {
+                dropdown.style.display = "block";
+            }
+        }
+
+        window.onclick = function(event) {
+            if (!event.target.matches('button')) {
+                var dropdowns = document.getElementsByClassName("dropdown");
+                for (var i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.style.display === "block") {
+                        openDropdown.style.display = "none";
+                    }
+                }
+            }
+        }
+    </script>
 </body>
 
 </html>

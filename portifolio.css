@@ -284,9 +284,7 @@ body{
     min-width: 140px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    margin-left: 24vw;
-    /* margin-top: 110px; */
-
+    margin-left: -28px;
 }
 
 .dropdown a{
@@ -300,14 +298,6 @@ body{
     background-color: #dce0ef;
     color: #000;
 }
-
-/* .drop-content{
-    display: flex;
-    flex-direction: column;
-    background-color: #67c95a;
-    align-items: center;
-    width: 85px;
-} */
 
 .drop-content:hover .dropdown{
     display: block;
