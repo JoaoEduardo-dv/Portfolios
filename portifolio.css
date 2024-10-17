@@ -56,10 +56,10 @@ body {
     /* background-color: #67c95a; */
 }
 
-.logoli{
-    /* background-color: aqua; */
-    /* margin-left: -1em; */
-}
+/* .logoli{
+    background-color: aqua;
+    margin-left: -1em;
+} */
 
 .foto {
     width: 120px;
@@ -87,10 +87,8 @@ nav .maior-tela{
     font-size: 18pt;
 }
 
-nav .menor-tela{
-    /* background-color: #67c95a; */
-    margin-right:
-}
+/* nav .menor-tela{
+} */
 
 nav ul li {
     display: inline;
