@@ -1,0 +1,14 @@
+.certificados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 720px;
+    background-color: #67c95a;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.certif{
+    width: 700px;
+    margin: 10px;
+}
