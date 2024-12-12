@@ -214,6 +214,11 @@ fieldset ul li{
 span{
     font-style: italic;
     color: #fff;
+    margin-right: -45px;
+}
+.fotterDisplay{
+    display: flex;
+    flex-direction: column;
 }
 
 .texto{
@@ -269,13 +274,15 @@ span{
     width: 100%;
     background-color: #67c95a;
     border-radius: 10px;
+    margin-bottom: 30px;
 }
 
 .link-galeria{
     font-size: 20pt;
     position: relative;
     margin-top: 10px;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    color: blue;
 }
 
 .link-galeria:hover{
