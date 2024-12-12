@@ -143,6 +143,11 @@ footer {
     margin: -8px;
     list-style-type: none;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: -8px;
 }
 
 footer li{
@@ -210,15 +215,22 @@ fieldset ul li{
 .insta:hover{
     top: -2px;
 }
+.line{
+}
+
+.sapsap{
+    margin-left: -30px;
+}
 
 span{
     font-style: italic;
     color: #fff;
     margin-right: -45px;
+    font-size: 18pt;
 }
 .fotterDisplay{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .texto{
