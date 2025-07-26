@@ -1,4 +1,4 @@
-.certificados{
+.premios{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,7 +8,11 @@
     margin-top: 20px;
 }
 
-.certif{
+.premio{
     width: 700px;
     margin: 10px;
+}
+
+.medalhas{
+    margin-bottom: 30px;
 }

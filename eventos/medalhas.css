@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.moudura{
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+li{
+    list-style: none;
+}
+.img-olimp{
+    width: 150px;
+}
+.foto-olimp{
+    margin-right: 30px;
+}
+.tex-caract{
+    font-family: "Lobster";
+}
+.text-premio{
+    font-family: "Lobster";
+}
